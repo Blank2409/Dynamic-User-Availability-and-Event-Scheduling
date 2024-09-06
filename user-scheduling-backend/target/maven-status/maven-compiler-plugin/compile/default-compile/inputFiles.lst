@@ -1,0 +1,12 @@
+d:\Intern\user-scheduling-backend\src\main\java\com\example\demo\controller\AvailabilityController.java
+d:\Intern\user-scheduling-backend\src\main\java\com\example\demo\controller\SessionController.java
+d:\Intern\user-scheduling-backend\src\main\java\com\example\demo\controller\UserController.java
+d:\Intern\user-scheduling-backend\src\main\java\com\example\demo\model\Availability.java
+d:\Intern\user-scheduling-backend\src\main\java\com\example\demo\model\Session.java
+d:\Intern\user-scheduling-backend\src\main\java\com\example\demo\model\User.java
+d:\Intern\user-scheduling-backend\src\main\java\com\example\demo\repository\AvailabilityRepository.java
+d:\Intern\user-scheduling-backend\src\main\java\com\example\demo\repository\SessionRepository.java
+d:\Intern\user-scheduling-backend\src\main\java\com\example\demo\repository\UserRepository.java
+d:\Intern\user-scheduling-backend\src\main\java\com\example\demo\service\AvailabilityService.java
+d:\Intern\user-scheduling-backend\src\main\java\com\example\demo\service\SessionService.java
+d:\Intern\user-scheduling-backend\src\main\java\com\example\demo\service\UserService.java
