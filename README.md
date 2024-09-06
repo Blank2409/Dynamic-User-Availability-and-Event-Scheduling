@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+# Dynamic-User-Availability-and-Event-Scheduling
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Overview
 
-## Available Scripts
+The Dynamic-User-Availability-and-Event-Scheduling system is a web application designed to help users set their availability and schedule events dynamically. The application is built using React for the frontend and Spring Boot for the backend, with MongoDB as the database.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **User Dashboard**: Allows users to create accounts, set their availability, and manage their schedules.
+- **Admin Dashboard**: Enables administrators to view user availability and schedule sessions.
+- **Responsive Design**: Ensures that the application is usable on various devices and screen sizes.
+- **Dark Mode**: Provides a modern and visually appealing dark theme for better user experience.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies Used
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Frontend**: React, styled-components
+- **Backend**: Spring Boot
+- **Database**: MongoDB
 
-### `npm test`
+## Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Backend
 
-### `npm run build`
+1. Navigate to the `backend` directory.
+2. Ensure you have Java 11 or higher installed.
+3. Install dependencies and run the Spring Boot application using Maven:
+    ```bash
+    mvn install
+    mvn spring-boot:run
+    ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Frontend
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Navigate to the `frontend` directory.
+2. Ensure you have Node.js and npm installed.
+3. Install dependencies and start the React application:
+    ```bash
+    npm install
+    npm start
+    ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Screenshots
 
-### `npm run eject`
+### User Dashboard
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![user](https://github.com/user-attachments/assets/9e12a689-9e8c-426b-8a2d-ea7a7b4b1bb8)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Admin Dashboard
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![admin](https://github.com/user-attachments/assets/445e1f34-674c-488f-8000-d6d2b251268d)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## MongoDB Usage
 
-### Code Splitting
+The application uses MongoDB as the database to store user information and session data. Ensure you have MongoDB running and properly configured to connect with the backend.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Usage
 
-### Analyzing the Bundle Size
+- **Navigate to the User Dashboard**: Access `/user` to create an account, set availability, and manage your schedule.
+- **Navigate to the Admin Dashboard**: Access `/admin` to view user availability and schedule sessions.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+## Acknowledgements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- Inspired by modern web design and dark mode aesthetics.
+- Utilizes MongoDB for efficient and scalable data storage.
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
